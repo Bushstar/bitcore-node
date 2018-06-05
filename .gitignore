@@ -24,6 +24,7 @@ coverage/*
 .DS_Store
 bin/bitcoin*
 bin/feathercoin*
+bin/feathercore-0*
 bin/SHA256SUMS.asc
 regtest/data/node1/regtest
 regtest/data/node2/regtest

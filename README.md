@@ -1,7 +1,7 @@
 Feathercore Node
 ============
 
-A Feathercoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Bitcoin Core with additional indexing](https://github.com/bitpay/bitcoin/tree/0.12.1-bitcore) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Feathercoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Feathercoin Core with additional indexing](https://github.com/FeatherCoin/feathercore) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -12,7 +12,7 @@ npm install
 ./bin/feathercore-node start
 ```
 
-Note: For your convenience, we distribute feathercoind binaries for x86_64 Linux. Upon npm install, the binaries for your platform will be downloaded into the bin directory. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Bitcoin Core with additional indexing](https://github.com/bitpay/bitcoin/tree/0.12.1-bitcore).
+Note: For your convenience, we distribute feathercoind binaries for x86_64 Linux. Upon npm install, the binaries for your platform will be downloaded into the bin directory. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Feathercoin Core with additional indexing](https://github.com/FeatherCoin/feathercore).
 
 ## Prerequisites
 

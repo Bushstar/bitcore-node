@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var feathercore = require('../lib/cli/bitcore');
+feathercore();
